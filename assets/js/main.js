@@ -62,12 +62,7 @@ function deleteCheck(e) {
     }
 }
 
-
-
 // //END
-
-
-
 
 // // function addTodo() {
 

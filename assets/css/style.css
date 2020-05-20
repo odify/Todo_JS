@@ -4,15 +4,15 @@ body{
     flex-direction: column;
     font-family: Fira Sans, serif;
     font-weight: 800;
-    background-color: #3d3a38;
-    color: white;
+    background-color: #3d3a37;
+    color: #fff;
     text-align: center;
 }
 .headline{
     font-size: 3em;
     color: #fff;
     letter-spacing: 0.8px;
-    background-color: #F25c27;
+    background-color: #F25c23;
     text-shadow: 1px 2px 3px #3d3a38; 
 }
 h2, form{
@@ -29,10 +29,10 @@ form input , form button{
 }
 form button{
     background-color: white;
-    color: #F25c27;
+    color: #F25c22;
 }
 form button:hover{
-    background-color: #F25c27;
+    background-color: #F25c21;
     color: white;
     transition: all 0.5s ease;
 }
@@ -54,10 +54,10 @@ form input{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: all 0.7s ease;
+    transition: all 0.73s ease;
 }
 .todo-item{
-    font-size: 1.2em;
+    font-size: 1.28em;
     flex: 1;
     background-color: white;
     padding: 5px;
@@ -82,7 +82,7 @@ form input{
 }
 .completed{
     text-decoration: line-through;
-    opacity: 0.7;
+    opacity: 0.69;
 }
 .fall{
     transform: translateY(8rem) rotateZ(20deg);
