@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Fira Sans, serif;
+    font-weight: 800;
+    background-color: #3d3a38;
+    color: white;
+    text-align: center;
+}
+.headline{
+    font-size: 3em;
+    color: #fff;
+    letter-spacing: 0.8px;
+    background-color: #F25c27;
+    text-shadow: 1px 2px 3px #3d3a38; 
+}
+h2, form{
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+form input , form button{
+    background-color: white;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+}
+form button{
+    background-color: white;
+    color: #F25c27;
+}
+form button:hover{
+    background-color: #F25c27;
+    color: white;
+    transition: all 0.5s ease;
+}
+form input{
+    min-width: 25%;
+}
+.todo-contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#todo-list{
+    list-style: none;
+    min-width:30%;
+}
+.todo{
+    color: black;
+    margin: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.7s ease;
+}
+.todo-item{
+    font-size: 1.2em;
+    flex: 1;
+    background-color: white;
+    padding: 5px;
+  }
+.complete-btn, .trash-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin: 5px;
+}
+.complete-btn{
+    background-color: green;
+}
+.trash-btn:hover{
+    background-color: white;
+    color: red;
+}
+.complete-btn:hover{
+    background-color: white;
+    color: green;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
